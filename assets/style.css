@@ -33,12 +33,14 @@ body {
 }
 
 .title {
+  font-family: "Knewave", cursive;
   position: relative;
   margin: 2rem 0;
   z-index: 2;
   font-size: 3rem;
   color: #fff;
-  font-weight: 400;
+  font-weight: 200;
+  letter-spacing: 0.08rem;
 }
 .title:after {
   content: "";
@@ -50,16 +52,18 @@ body {
   width: 104%;
   z-index: -1;
   background: rgba(255, 107, 107, 0.5);
-  transform: rotate(-1deg);
+  transform: rotate(-0.8deg);
 }
 
 .contact {
+  font-family: "Knewave", cursive;
   position: relative;
   margin: 0;
   z-index: 2;
   font-size: 1.6rem;
   color: #fff;
   font-weight: 400;
+  letter-spacing: 0.05rem;
 }
 .contact:after {
   content: "";
@@ -71,5 +75,5 @@ body {
   width: 104%;
   z-index: -1;
   background: rgba(255, 107, 107, 0.5);
-  transform: rotate(1deg);
+  transform: rotate(0.8deg);
 }
