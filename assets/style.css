@@ -52,3 +52,24 @@ body {
   background: rgba(255, 107, 107, 0.5);
   transform: rotate(-1deg);
 }
+
+.contact {
+  position: relative;
+  margin: 0;
+  z-index: 2;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 400;
+}
+.contact:after {
+  content: "";
+  position: absolute;
+  top: 0.1rem;
+  left: -2%;
+  display: flex;
+  height: 105%;
+  width: 104%;
+  z-index: -1;
+  background: rgba(255, 107, 107, 0.5);
+  transform: rotate(1deg);
+}
