@@ -2,8 +2,6 @@ body {
   min-height: 100vh;
   width: 100%;
   overflow: hidden;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -26,10 +24,11 @@ body {
   transform: rotate(-5deg);
 }
 .emblem > h1 {
+  font-family: "Roboto Mono", monospace;
   color: rgba(255, 255, 255, 0.98);
   font-size: 23rem;
   font-weight: 300;
-  transform: rotate(-3deg) translate(6%, -2%);
+  transform: rotate(-2deg) translate(6%, -3%);
 }
 
 .title {
